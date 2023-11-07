@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entidades
+{
+   
+        public class Biblioteca
+        {  
+            List<Libro> libros;
+            public int BibliotecaId { get; set; }
+            public string Nombre { get; set; }
+            public DateTime Inaguración { get; set; }
+            public string Dirección { get; set; }
+
+        }
+
+    }
